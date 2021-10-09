@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 95%;
+    height: 100%;
+
+}
+
+.navigationbar{
+    width: 100%;
+    height: 80px;
+    background-color: #fdfdfd;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.collection_items{
+    width: 60%;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+.collection_item a{
+    text-decoration: none;
+    color: #181818;
+}
+.collection_item{
+    list-style-type: none;
+}
+.collection_item:hover{
+    border-bottom: 3px solid#181818;
+}
+.collection_item a:hover{
+    border-bottom: 3px solid  #181818;
+}
+
+.navigationbar img{
+    width: 130px;
+    height: 30px;
+}
+.container{
+    margin: auto;
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    background-color: #f3f3f3;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.image{
+    margin-top: -100px;
+    width: 800px;
+    height: auto;
+}
+
+.image img{
+    width: 100%;
+    height: 75vh;
+}
+
+.lorem{
+    width: 30%;
+    height: 50vh;
+    display: grid;
+    place-items: center;
+    justify-content: space-evenly;
+}
+.des h5{
+    background-color: #FEF20F;
+    height: 25px;
+    font-size: 17px;
+}
+.des h2{
+    margin-top: 20px;
+}
+
+.des p{
+    margin-top: 20px;
+}
+
+.con{
+    width: 350px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.btn1{
+    width: 140px;
+    height: 40px;
+    background-color: #007fb9;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.btn1 p:hover{
+    border-bottom: 3px solid #f3f3f3;
+}
+
+
+.btn{
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    color: #000;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn p:hover{
+    border-bottom: 3px solid #181818;
+}
+
